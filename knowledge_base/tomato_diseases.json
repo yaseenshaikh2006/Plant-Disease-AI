@@ -1,0 +1,367 @@
+{
+  "tomato_healthy": {
+    "crop": "Tomato",
+    "disease": "Healthy",
+    "pathogen": "None (Optimum vegetative and reproductive vigor)",
+    "description": "Foliage exhibits vibrant emerald green composite leaves, crisp turgid leaf stems, symmetrical leaflets, and zero necrotic spotting, marginal chlorosis, or viral mosaic patterns.",
+    "symptoms": [
+      "Lush, uniform green leaflets with well-defined serration",
+      "Erect stems with healthy trichomes (hairs) and robust flower trusses",
+      "Absence of yellow halos, target-like concentric rings, or mosaic mottling"
+    ],
+    "causes": [
+      "Optimal soil pH (6.0 - 6.8) with high organic matter",
+      "Consistent moisture regime and balanced plant nutrition",
+      "Proper trellising and sucker pruning providing exceptional airflow"
+    ],
+    "severity_rules": {
+      "metric": "Lesion area percentage",
+      "healthy": "< 1% lesion coverage",
+      "mild": "N/A",
+      "moderate": "N/A",
+      "severe": "N/A"
+    },
+    "treatment": {
+      "organic": [
+        "Apply weekly preventative sprays of biological products (such as Bacillus amyloliquefaciens or Serenade ASO)",
+        "Use diluted cold-pressed neem oil (0.5%) to deter aphid and whitefly vectors"
+      ],
+      "chemical": [
+        "No chemical fungicides or bactericides required for healthy foliage"
+      ]
+    },
+    "fertilizer": [
+      "Supply 5-10-10 or 4-18-38 balanced tomato hydroponic/soil formula with calcium and magnesium",
+      "Maintain calcium availability (calcium nitrate or gypsum) to prevent blossom end rot",
+      "Limit high-ammoniacal nitrogen during flowering to promote fruit set rather than excessive vine growth"
+    ],
+    "irrigation": [
+      "Deliver 1.5 - 2.0 inches of water per week using drip emitters placed 6 inches from the plant stem",
+      "Irrigate deeply and consistently to maintain root zone moisture tension between -15 and -25 kPa",
+      "Never wet foliage; maintain plastic or organic straw mulch to keep leaves completely dry"
+    ],
+    "prevention": [
+      "Plant indeterminate vines with sturdy stakes, Florida weave, or trellises to elevate vines 4-6 feet above soil",
+      "Maintain 18-24 inch plant spacing within rows and 36-48 inches between rows",
+      "Prune the lowest 12-18 inches of foliage once vines are 3 feet tall to prevent soil-splash pathogen transmission"
+    ],
+    "recovery_tips": [
+      "Sanitize pruning tools with 70% isopropyl alcohol between each individual plant",
+      "Mulch soil bed immediately after transplanting with clean straw or black plastic"
+    ]
+  },
+  "tomato_bacterial_spot": {
+    "crop": "Tomato",
+    "disease": "Bacterial Spot",
+    "pathogen": "Xanthomonas perforans / Xanthomonas vesicatoria (Bacterium)",
+    "description": "A devastating bacterial disease affecting leaves, stems, and fruit. Foliar lesions begin as tiny water-soaked circular to angular dark spots that turn brown/black, frequently bordered by distinct chlorotic halos. Centers of spots may dry out and crack open.",
+    "symptoms": [
+      "Small, angular, dark brown to black water-soaked lesions (less than 3 mm) on foliage",
+      "Lesions surrounded by prominent yellow halos, often concentrated near leaf margins",
+      "Severe infections cause defoliation of lower canopy exposing green fruits to sunscald",
+      "Raised, scab-like, blistered spots on green fruit surfaces"
+    ],
+    "causes": [
+      "Warm temperatures (25-30°C) with continuous high humidity or frequent overhead irrigation/rain",
+      "Bacteria splashing from soil or neighboring diseased seedlings via rain drops",
+      "Contaminated seed stock or infected transplant seedlings"
+    ],
+    "severity_rules": {
+      "metric": "Lesion area percentage",
+      "healthy": "< 1% lesion coverage",
+      "mild": "< 10% coverage; isolated pinhead spots on lower leaves",
+      "moderate": "10% - 30% coverage; coalescing angular black spots with marginal yellowing",
+      "severe": "> 30% coverage; widespread defoliation, blighted stem lesions, and fruit scab formation"
+    },
+    "treatment": {
+      "organic": [
+        "Apply fixed copper sprays (Copper octanoate / Copper sulfate pentahydrate) mixed with Bacillus subtilis",
+        "Apply actigard (Acibenzolar-S-methyl) plant defense inducer where registered"
+      ],
+      "chemical": [
+        "Tank mix fixed copper fungicide (e.g., Kocide 3000) with Mancozeb (Mancozeb enhances copper bactericidal efficacy against copper-tolerant strains)",
+        "Apply streptomycin sulfate or kasugamycin under strict local agronomic regulatory approval"
+      ]
+    },
+    "fertilizer": [
+      "Discontinue high ammonium nitrate fertilizers; apply calcium nitrate and potassium sulfate",
+      "Foliar feed with zinc and manganese micronutrients to support plant immune enzymes"
+    ],
+    "irrigation": [
+      "Convert entirely to low-pressure drip irrigation; eliminate all overhead water splashing",
+      "Irrigate early in the morning so soil surface moisture evaporates rapidly"
+    ],
+    "prevention": [
+      "Use certified hot-water-treated seed (50°C for 25 minutes) to eradicate seedborne Xanthomonas",
+      "Rotate out of Solanaceous crops (tomatoes, peppers, potatoes, eggplants) for at least 2 to 3 years",
+      "Eradicate solanaceous weeds (such as black nightshade) that harbor bacterial populations"
+    ],
+    "recovery_tips": [
+      "Remove and destroy infected plants if detected early in small greenhouse setups",
+      "Sanitize stakes, trellises, and wire cages with 10% bleach solution before reuse"
+    ]
+  },
+  "tomato_early_blight": {
+    "crop": "Tomato",
+    "disease": "Early Blight",
+    "pathogen": "Alternaria solani (Ascomycete fungus)",
+    "description": "Characterized by distinctive target-board or concentric circular rings within dark brown spots on older lower leaves. As spots enlarge, surrounding leaf tissue turns yellow, leading to premature drop and severe plant defoliation.",
+    "symptoms": [
+      "Dark brown to black circular lesions displaying concentric 'target-board' rings",
+      "Surrounding foliar yellowing (chlorosis) that progresses outward from lesions",
+      "Early defoliation starting at the base of the vine and advancing upwards",
+      "Collar rot lesions at seedling stems and sunken leathery black spots at stem ends of fruits"
+    ],
+    "causes": [
+      "Moderate to warm temperatures (24-29°C) combined with high humidity, heavy dew, or overhead splashing",
+      "Overwintering fungal mycelium in solanaceous plant debris and contaminated soil",
+      "Stressed or nutrient-deficient plants with heavy fruit loads"
+    ],
+    "severity_rules": {
+      "metric": "Lesion area percentage",
+      "healthy": "< 1% lesion coverage",
+      "mild": "< 10% coverage; 2-3 target spots limited to bottom 2 branches",
+      "moderate": "10% - 30% coverage; multiple target spots across mid-canopy with yellow halos",
+      "severe": "> 30% coverage; extensive defoliation, stem cankers, and fruit rot"
+    },
+    "treatment": {
+      "organic": [
+        "Foliar applications of copper hydroxide or liquid copper octanoate every 7-10 days",
+        "Spray Serenade Garden (Bacillus subtilis strain QST 713) or Regalia bio-fungicide"
+      ],
+      "chemical": [
+        "Apply protectant fungicides: Chlorothalonil (Bravo / Daconil) or Mancozeb",
+        "For active disease pressure, rotate with systemic fungicides: Azoxystrobin (Quadris), Boscalid (Endura), or Difenoconazole",
+        "Alternate FRAC codes (FRAC 11, 7, 3) to prevent resistance development"
+      ]
+    },
+    "fertilizer": [
+      "Maintain adequate nitrogen and potassium; plants deficient in N or K are dramatically more susceptible to Alternaria",
+      "Avoid excess nitrogen during vegetative phase to prevent soft, succulent tissue"
+    ],
+    "irrigation": [
+      "Drip irrigation strictly; eliminate water contact with foliage",
+      "Mulch soil around plants with 3 inches of clean straw or plastic mulch to form a barrier against soil spores"
+    ],
+    "prevention": [
+      "Plant early-blight tolerant cultivars (e.g., Mountain Supreme, Defiant PHR, Plum Regal)",
+      "Prune bottom 12-18 inches of leaves to prevent contact with soil",
+      "Enforce a 3-year crop rotation schedule away from tomatoes and potatoes"
+    ],
+    "recovery_tips": [
+      "Prune out infected lower leaves immediately upon sighting and seal in bags; do not compost",
+      "Thoroughly clean up and till or burn all crop residues at the conclusion of harvest"
+    ]
+  },
+  "tomato_late_blight": {
+    "crop": "Tomato",
+    "disease": "Late Blight",
+    "pathogen": "Phytophthora infestans (Oomycete / Water mold)",
+    "description": "One of the most destructive plant pathogens in history (cause of the Irish potato famine). Symptoms appear as large, irregular water-soaked pale green or greasy olive-brown lesions on leaves and stems. Under humid conditions, white fluffy mold develops on the undersides of leaves.",
+    "symptoms": [
+      "Large, irregular water-soaked lesions that rapidly expand into dark brown or purplish-black blighted areas",
+      "Delicate white cottony/frosty mold (sporangiophores) appearing on leaf undersides during humid conditions",
+      "Dark brown greasy lesions running along petioles and main stems, leading to vine collapse",
+      "Firm, rough, golden-brown or mottled greasy rot on green and ripe fruits"
+    ],
+    "causes": [
+      "Cool, damp, fog-laden or rainy weather (15-22°C) with relative humidity above 90%",
+      "Wind-blown sporangia traveling miles from nearby infected tomato or potato fields",
+      "Infected potato tubers sprouting volunteer plants in spring"
+    ],
+    "severity_rules": {
+      "metric": "Lesion area percentage",
+      "healthy": "< 1% lesion coverage",
+      "mild": "< 10% coverage; isolated water-soaked dark blotches on upper leaf edges",
+      "moderate": "10% - 30% coverage; expanding necrotic blotches with visible white mold on undersides",
+      "severe": "> 30% coverage; rapid systemic collapse of vine canopy, stem girdling, and fruit decay"
+    },
+    "treatment": {
+      "organic": [
+        "Immediate aggressive application of copper hydroxide (Kocide / Nu-Cop) at maximum label rates",
+        "Destroy severely blighted individual plants immediately to halt explosive spore generation"
+      ],
+      "chemical": [
+        "Apply targeted oomycete fungicides: Cyazofamid (Ranman), Mandipropamid (Revus), or Fluopicolide (Presidio)",
+        "Tank-mix systemic materials with protectants like Chlorothalonil or Mancozeb",
+        "Spray on a tight 5 to 7 day schedule when local late blight forecasting alerts trigger"
+      ]
+    },
+    "fertilizer": [
+      "Avoid heavy nitrogen inputs which fuel high canopy density and moisture retention",
+      "Ensure adequate potassium and silica to strengthen epidermal cell walls"
+    ],
+    "irrigation": [
+      "Drip irrigation only; irrigate early morning to ensure daytime dry-down",
+      "Ensure excellent field drainage to prevent localized pools of standing moisture"
+    ],
+    "prevention": [
+      "Plant certified late blight resistant cultivars possessing Ph-2 and Ph-3 resistance genes (e.g., Iron Lady, Mountain Magic, Defiant)",
+      "Destroy all volunteer potato and tomato plants in field margins in early spring",
+      "Sign up for regional late blight tracking alerts (such as USAblight or local university extension)"
+    ],
+    "recovery_tips": [
+      "Bag and remove infected plants during sunny dry afternoons to minimize spore dispersion during handling",
+      "Never leave culled diseased fruit or foliage in open piles near the production field"
+    ]
+  },
+  "tomato_septoria_leaf_spot": {
+    "crop": "Tomato",
+    "disease": "Septoria Leaf Spot",
+    "pathogen": "Septoria lycopersici (Ascomycete fungus)",
+    "description": "A very common foliar fungal disease causing numerous small, circular spots (1-3 mm) with light tan to gray centers and dark brown margins. Inside older spots, tiny black specks (pycnidia fruiting bodies) are visible with a hand lens.",
+    "symptoms": [
+      "Numerous small (1-3 mm), circular spots with grayish-white centers and distinct dark brown borders",
+      "Tiny black pinhead specks (pycnidia) clearly visible in center of mature spots",
+      "Infected leaves turn yellow around the spots, shrivel up, and drop off starting from the ground up",
+      "Unlike early blight, spots remain small and rarely display concentric rings; fruit infection is very rare"
+    ],
+    "causes": [
+      "Moderate temperatures (20-25°C) coupled with high humidity and rainfall",
+      "Fungal spores splashing from infected overwintering debris onto lower leaves",
+      "Overhead irrigation splashing water across dense foliar canopies"
+    ],
+    "severity_rules": {
+      "metric": "Lesion area percentage",
+      "healthy": "< 1% lesion coverage",
+      "mild": "< 10% coverage; tiny circular spots on the lowest 1-2 branch tiers",
+      "moderate": "10% - 30% coverage; heavy spotting and progressive yellowing across mid-canopy",
+      "severe": "> 30% coverage; near complete lower and mid-canopy defoliation"
+    },
+    "treatment": {
+      "organic": [
+        "Copper sulfate or copper octanoate spray every 7-10 days starting at first spotting",
+        "Bio-fungicides like Bacillus subtilis or potassium bicarbonate sprays"
+      ],
+      "chemical": [
+        "Apply Chlorothalonil (Daconil 2787) or Mancozeb as preventative foliar sprays",
+        "Systemic triazole or strobilurin fungicides (e.g., Quadris or Flint) for severe pressure"
+      ]
+    },
+    "fertilizer": [
+      "Ensure steady balanced nutrition; defoliation is exacerbated in nitrogen-starved plants",
+      "Maintain calcium and potassium foliar balance"
+    ],
+    "irrigation": [
+      "Strict drip irrigation; never allow sprinklers to splash soil onto lower foliage",
+      "Apply thick organic or plastic mulch beneath plants to block spore splashing from soil"
+    ],
+    "prevention": [
+      "Prune the bottom 12-18 inches of foliage to keep leaves far away from soil splash",
+      "Sterilize plant supports and trellises before each growing season",
+      "Enforce 3-year crop rotation away from solanaceous plants"
+    ],
+    "recovery_tips": [
+      "Prune and discard infected bottom leaves as soon as first spots appear",
+      "Remove all crop residue at the end of the season and bury deeply or burn"
+    ]
+  },
+  "tomato_yellow_leaf_curl": {
+    "crop": "Tomato",
+    "disease": "Yellow Leaf Curl Virus",
+    "pathogen": "Tomato Yellow Leaf Curl Virus (TYLCV, Begomovirus transmitted by Whiteflies)",
+    "description": "A severe viral disease transmitted exclusively by sweetpotato whiteflies (Bemisia tabaci). Infected plants exhibit marked stunting, upright erect shoot growth, and leaves that are drastically reduced in size, curled cupped upward, and showing intense interveinal yellowing (chlorosis).",
+    "symptoms": [
+      "Leaves cupped upward and inward with prominent yellow (chlorotic) margins and interveinal areas",
+      "Severe reduction in leaf blade size, giving a stunted, crumpled, or 'bonsai' appearance",
+      "Marked plant stunting with shortened internodes and compact bushy growth",
+      "Flower trusses drop prematurely without setting fruit; overall yield can drop by 90-100%"
+    ],
+    "causes": [
+      "Feeding by the silverleaf / sweetpotato whitefly (Bemisia tabaci)",
+      "Warm, dry climatic conditions promoting whitefly population explosions",
+      "Proximity to infected commercial or hobby tomato/pepper fields"
+    ],
+    "severity_rules": {
+      "metric": "Lesion area percentage",
+      "healthy": "< 1% lesion coverage",
+      "mild": "< 10% coverage; light marginal upward curling on newest terminal leaves",
+      "moderate": "10% - 30% coverage; pronounced cupping, yellow margins, and noticeable branch stunting",
+      "severe": "> 30% coverage; total apical stunting, severe chlorosis, flower abortion, and zero fruit set"
+    },
+    "treatment": {
+      "organic": [
+        "Control whitefly vectors using insecticidal soaps, horticultural oils, or neem extract (azadirachtin)",
+        "Deploy yellow sticky traps (1 trap per 10-20 sq meters) to monitor and mass-trap whitefly adults",
+        "Introduce natural predators: Encarsia formosa parasitic wasps or Delphastus catalinae predatory beetles"
+      ],
+      "chemical": [
+        "There are no direct chemical viricides that cure a virus-infected plant; treatment targets whitefly vectors",
+        "Apply systemic neonicotinoid insecticides (such as Imidacloprid or Thiamethoxam) at transplanting",
+        "Foliar sprays of insect growth regulators (such as Pyriproxyfen or Spiromesifen) to break whitefly lifecycle"
+      ]
+    },
+    "fertilizer": [
+      "Supply balanced micronutrient foliar sprays (magnesium, iron, zinc) to relieve severe chlorotic stress",
+      "Maintain adequate potassium to assist in osmotic maintenance"
+    ],
+    "irrigation": [
+      "Maintain consistent soil moisture; water-stressed plants produce volatile compounds that attract whitefly vectors",
+      "Avoid dry stress spikes during flowering"
+    ],
+    "prevention": [
+      "Plant TYLCV-resistant or tolerant hybrids possessing the Ty-1, Ty-2, or Ty-3 resistance genes",
+      "Use UV-reflective silver plastic mulches to deter whiteflies from landing on young seedlings",
+      "Cover nursery seedlings with fine 50-mesh insect-proof netting for the first 30-40 days after germination",
+      "Maintain a 60-day host-free period between consecutive tomato crops"
+    ],
+    "recovery_tips": [
+      "Immediately rogue (uproot) and bag infected plants to prevent them from acting as viral reservoirs",
+      "Do not prune healthy plants immediately after handling virus-infected foliage without sanitizing hands"
+    ]
+  },
+  "tomato_mosaic_virus": {
+    "crop": "Tomato",
+    "disease": "Tomato Mosaic Virus",
+    "pathogen": "Tomato Mosaic Virus (ToMV, Tobamovirus transmitted mechanically)",
+    "description": "An exceptionally stable, mechanically transmitted tobamovirus. Infected tomato leaves develop distinctive alternating patches of light green and dark green (mosaic mottling), blistering, and distortion. In severe cases, leaflets develop a thin, spidery 'shoestring' or 'fern-leaf' appearance.",
+    "symptoms": [
+      "Mottled pattern of light and dark green areas on leaves (mosaic pattern)",
+      "Leaf distortion including puckering, curling, blistered surfaces, and narrowing into shoestring shapes",
+      "Overall plant stunting and reduced fruit size with internal brown ring browning (internal necrosis)",
+      "Uneven fruit ripening with yellowish-brown blotchy patches on fruit walls"
+    ],
+    "causes": [
+      "Mechanical transmission through contaminated hands, pruning tools, stakes, or clothing during field operations",
+      "Infected seed coats or tobacco products (cigarettes, chewing tobacco) handled by field workers",
+      "Extremely persistent viral particles capable of surviving in dry plant debris and soil for multiple years"
+    ],
+    "severity_rules": {
+      "metric": "Lesion area percentage",
+      "healthy": "< 1% lesion coverage",
+      "mild": "< 10% coverage; faint light green/dark green mottling on young terminal leaflets",
+      "moderate": "10% - 30% coverage; clear mosaic distortion, leaf blistering, and minor shoestringing",
+      "severe": "> 30% coverage; severe fern-leaf distortion, systemic vine stunting, and internal fruit necrosis"
+    },
+    "treatment": {
+      "organic": [
+        "There are no organic viricides to cure plant tissues once infected with ToMV",
+        "Spray 20% non-fat dry milk or skim milk solution onto workers' hands and tools during pruning (milk proteins bind and neutralize virus particles)",
+        "Promptly rogue out and destroy infected individual vines"
+      ],
+      "chemical": [
+        "No chemical viricides exist to cure plant viruses",
+        "Decontaminate all pruning shears, stakes, and greenhouse surfaces with 10% trisodium phosphate (TSP) or 20% bleach"
+      ]
+    },
+    "fertilizer": [
+      "Avoid excessive nitrogen that stimulates rapid abnormal cell growth in infected tissues",
+      "Maintain steady calcium and potassium nutrition"
+    ],
+    "irrigation": [
+      "Maintain uniform soil moisture using drip lines; avoid water fluctuations that stress vascular transport",
+      "Ensure proper root aeration"
+    ],
+    "prevention": [
+      "Select resistant tomato cultivars bearing the Tm-1, Tm-2, or Tm-2^2 resistance genes",
+      "Strictly prohibit tobacco use (smoking, chewing) anywhere near greenhouse or field tomato plants",
+      "Require workers to wash hands thoroughly with soap and water or dip in milk solution before handling plants",
+      "Purchase certified virus-indexed seeds treated with trisodium phosphate (TSP) or dry heat (70°C for 4 days)"
+    ],
+    "recovery_tips": [
+      "Immediately remove infected plants: place carefully into bags inside the field to avoid rubbing healthy neighbors",
+      "Do not compost infected plant debris; burn or landfill discarded vines",
+      "Disinfect all stakes, cages, and wires with 10% TSP solution before re-staking next season"
+    ]
+  }
+}

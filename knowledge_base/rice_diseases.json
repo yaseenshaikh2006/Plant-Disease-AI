@@ -1,0 +1,214 @@
+{
+  "rice_healthy": {
+    "crop": "Rice",
+    "disease": "Healthy",
+    "pathogen": "None (Optimum physiological and tillering condition)",
+    "description": "Foliage shows vibrant linear green leaves with erect flag leaf positioning, uniform vein architecture, and complete absence of water-soaked streaks, necrotic lesions, or fungal fruiting structures.",
+    "symptoms": [
+      "Smooth, bright green linear leaf blades with clean margins",
+      "Robust tillering with strong culms and intact flag leaves",
+      "No discoloration, chlorosis, or necrotic spotting along the leaf edges"
+    ],
+    "causes": [
+      "Proper water level management (saturated during transplanting, controlled flooding 2-5 cm during tillering)",
+      "Balanced nitrogen-phosphorus-potassium (NPK) fertilization",
+      "Optimum seedling density and weed-free bund management"
+    ],
+    "severity_rules": {
+      "metric": "Lesion area percentage",
+      "healthy": "< 1% lesion coverage",
+      "mild": "N/A",
+      "moderate": "N/A",
+      "severe": "N/A"
+    },
+    "treatment": {
+      "organic": [
+        "Incorporate green manure (such as Sesbania or Azolla) to build native soil microbiological suppressiveness",
+        "Spray Pseudomonas fluorescens (0.5%) suspension as a prophylactic phyllosphere protectant"
+      ],
+      "chemical": [
+        "No chemical pesticides or bactericides necessary for healthy stands"
+      ]
+    },
+    "fertilizer": [
+      "Apply nitrogen in split doses: 50% basal at transplanting, 25% at active tillering, and 25% at panicle initiation",
+      "Ensure adequate muriate of potash (MOP); potassium strengthens culms and promotes silica cell deposition in epidermis",
+      "Supplement with zinc sulfate (25 kg/ha) if soils show historical zinc deficiency (khaira condition)"
+    ],
+    "irrigation": [
+      "Practice Alternate Wetting and Drying (AWD) to oxygenate the root zone and prevent anaerobic sulfide accumulation",
+      "Maintain a consistent 3-5 cm water layer from panicle initiation through flowering, draining 10 days before harvest"
+    ],
+    "prevention": [
+      "Treat seeds with Trichoderma viride or hot water (52-54°C for 10 min) prior to nursery nursery sowing",
+      "Maintain 20 cm x 15 cm plant spacing to optimize microclimate ventilation and sunlight interception"
+    ],
+    "recovery_tips": [
+      "Perform periodic field perimeter weed clearance to eliminate alternate graminaceous hosts",
+      "Scout lower leaf sheaths weekly during the active tillering and boot leaf stages"
+    ]
+  },
+  "rice_bacterial_leaf_blight": {
+    "crop": "Rice",
+    "disease": "Bacterial Leaf Blight",
+    "pathogen": "Xanthomonas oryzae pv. oryzae (Gram-negative bacterium)",
+    "description": "One of the most destructive rice diseases worldwide. Symptoms appear as water-soaked lesions on leaf margins that rapidly enlarge, turn yellowish-white, and develop wavy margins running lengthwise along leaf veins. Bacterial oozing beads may appear in morning dew.",
+    "symptoms": [
+      "Water-soaked to yellowish-green translucent streaks starting at leaf tips and margins",
+      "Lesions advance into grayish-white necrotic blighted ribbons with characteristic wavy borders",
+      "Milky bacterial exudate droplets visible on lesions in early morning, drying into yellow crusty beads",
+      "Systemic kresek phase causing severe seedling wilting and death"
+    ],
+    "causes": [
+      "High humidity (> 70%) combined with warm temperatures (25-34°C)",
+      "Excessive, un-split nitrogen fertilization causing succulent leaf tissues",
+      "Typhoons, driving rain, or windstorms creating micro-wounds for bacterial entry",
+      "Deep standing irrigation water facilitating horizontal bacterial dispersal"
+    ],
+    "severity_rules": {
+      "metric": "Lesion area percentage",
+      "healthy": "< 1% lesion coverage",
+      "mild": "< 10% coverage; localized tip lesions on lower outer leaves",
+      "moderate": "10% - 30% coverage; wavy necrotic ribbons extending along outer 1/3 of leaf blade",
+      "severe": "> 30% coverage; widespread blighting of upper canopy and flag leaves, severe wilting (kresek)"
+    },
+    "treatment": {
+      "organic": [
+        "Spray plant extracts such as neem seed kernel extract (NSKE 5%) or garlic extract to suppress bacterial proliferation",
+        "Foliar spray with Pseudomonas fluorescens (2.5 kg/ha) or Bacillus subtilis bioprotectants"
+      ],
+      "chemical": [
+        "Spray Streptomycin sulfate + Tetracycline hydrochloride (Plantomycin / Agrimycin 100-150 g/ha) mixed with Copper oxychloride (500 g/ha)",
+        "Apply Bismerthiazol or Thiodiazole copper as per local agricultural regulatory guidelines",
+        "Repeat application after 10-12 days if rainy conditions persist"
+      ]
+    },
+    "fertilizer": [
+      "Immediately suspend all top-dressed nitrogenous fertilizers until the disease is arrested",
+      "Apply supplemental potassium (MOP at 25-30 kg/ha) to enhance epidermal cell wall lignification and plant defenses",
+      "Foliar spray 1% potassium nitrate (KNO3) to promote physiological recovery"
+    ],
+    "irrigation": [
+      "Drain standing field water immediately to 1 cm or allow field to dry for 3-4 days until soil cracks slightly",
+      "Never allow irrigation water to flow from infected paddies directly into healthy adjacent plots (stop field-to-field overflow)",
+      "Avoid irrigating during midday or turbulent rainy spells"
+    ],
+    "prevention": [
+      "Cultivate certified resistant cultivars containing Xa4, xa5, Xa21 resistance genes",
+      "Perform seed soaking in streptocycline solution (100 ppm) for 8 hours prior to nursery germination",
+      "Avoid root clipping or mechanical damage to seedlings during transplanting",
+      "Eradicate wild weed grass hosts (such as Leersia oryzoides and Cyperus species) from irrigation channels"
+    ],
+    "recovery_tips": [
+      "Plow under infected stubble immediately after harvest to accelerate bacterial decomposition",
+      "Allow paddies to undergo summer fallowing and solarization before the subsequent cropping season"
+    ]
+  },
+  "rice_brown_spot": {
+    "crop": "Rice",
+    "disease": "Brown Spot",
+    "pathogen": "Bipolaris oryzae (Ascomycete fungus)",
+    "description": "Historically linked to severe yield losses, brown spot is a fungal disease often associated with nutrient-deficient or poor soil conditions. Lesions are oval, dark brown with a gray/whitish center, resembling sesame seeds scattered on the foliage and grains.",
+    "symptoms": [
+      "Small circular to oval brown spots with a distinct yellow halo across leaf blades",
+      "Fully developed spots are shaped like sesame seeds with grayish-white centers and dark brown margins",
+      "Spots coalesce into large irregular patches causing entire leaves to yellow and dry up prematurely",
+      "Infected spikelets show dark brown to black glume discoloration resulting in unfilled, chalky grains"
+    ],
+    "causes": [
+      "Severe soil nutrient deficiency (especially silicon, potassium, nitrogen, and manganese)",
+      "Unbalanced sandy soils or acid-sulfate soils with low organic matter",
+      "Prolonged leaf wetness (> 16 hours) and high relative humidity (85-95%) at 20-30°C",
+      "Drought stress or intermittent water deficit"
+    ],
+    "severity_rules": {
+      "metric": "Lesion area percentage",
+      "healthy": "< 1% lesion coverage",
+      "mild": "< 10% coverage; small scattered oval spots on lower leaves only",
+      "moderate": "10% - 30% coverage; dense spotting across middle canopy with yellow halos merging",
+      "severe": "> 30% coverage; total foliar blighting, panicle discoloration, and glume staining"
+    },
+    "treatment": {
+      "organic": [
+        "Foliar spray with neem oil (3 ml/L) or datura leaf extract at the onset of lesions",
+        "Apply bio-fungicides containing Trichoderma harzianum or Bacillus subtilis to colonize lesion margins"
+      ],
+      "chemical": [
+        "Spray systemic fungicides: Propiconazole 25% EC (1 ml/L), Hexaconazole 5% EC (2 ml/L), or Tebuconazole",
+        "Protectant sprays of Mancozeb 75% WP (2 g/L) or Carbendazim (1 g/L)",
+        "Apply at active tillering and repeat at panicle emergence (booting stage)"
+      ]
+    },
+    "fertilizer": [
+      "Ameliorate soil nutritional stress: apply balanced NPK supplemented with farmyard manure (FYM) or vermicompost",
+      "Apply calcium silicate slag or potassium silicate (100-200 kg/ha) to replenish plant silicon levels",
+      "Correct manganese and zinc deficiencies via foliar sprays of 0.5% MnSO4 and 0.5% ZnSO4"
+    ],
+    "irrigation": [
+      "Maintain continuous shallow flooding (2-4 cm) during tillering and panicle development to eliminate drought stress",
+      "Avoid severe soil drying cycles in light-textured soils prone to brown spot development"
+    ],
+    "prevention": [
+      "Use certified disease-free seed; hot water treatment at 53-54°C for 10-12 minutes",
+      "Seed dressing with Carbendazim or Thiram at 2 g/kg of seed before sowing",
+      "Conduct soil testing before season planting to correct macro and micronutrient deficiencies"
+    ],
+    "recovery_tips": [
+      "Burn or compost infected crop residues with urea to accelerate fungal perithecial breakdown",
+      "Rotate with leguminous green manure crops to restore organic matter and soil health"
+    ]
+  },
+  "rice_leaf_smut": {
+    "crop": "Rice",
+    "disease": "Leaf Smut",
+    "pathogen": "Entyloma oryzae (Basidiomycete fungus)",
+    "description": "Leaf smut is a widespread fungal disease characterized by small, slightly raised, angular black spots (sori) on both surfaces of the leaf blade. As the disease advances, leaves turn yellow from the tip, turn brown, and wither prematurely.",
+    "symptoms": [
+      "Small, slightly raised, angular black spots (1-3 mm) scattered across the leaf blade",
+      "Spots appear on both sides of the leaf, often bounded by small veins",
+      "Surrounding leaf tissue turns chlorotic yellow, leading to premature senescence of older leaves",
+      "Teliospores form dark crusty masses under the leaf epidermis"
+    ],
+    "causes": [
+      "Late cropping season maturity accompanied by heavy dew and warm temperatures (28-32°C)",
+      "Excessive nitrogen application late in the crop cycle",
+      "High plant density and sheltered microclimates with stagnant air"
+    ],
+    "severity_rules": {
+      "metric": "Lesion area percentage",
+      "healthy": "< 1% lesion coverage",
+      "mild": "< 10% coverage; sparse black sori on lower senescing leaves",
+      "moderate": "10% - 30% coverage; numerous black crusty spots with localized yellowing",
+      "severe": "> 30% coverage; dense black pustules over entire blade with complete leaf desiccation"
+    },
+    "treatment": {
+      "organic": [
+        "Spray fermented buttermilk extract (5%) or wood ash tea to disrupt fungal spore viability",
+        "Apply Pseudomonas fluorescens (10 g/L) to suppress epiphytic fungal development"
+      ],
+      "chemical": [
+        "Foliar spray with Mancozeb 75% WP (2 g/L) or Copper oxychloride 50% WP (2.5 g/L)",
+        "For severe outbreaks, apply systemic triazoles such as Propiconazole (1 ml/L) or Tebuconazole (1 ml/L)",
+        "Spray twice at 10-day intervals during late vegetative to heading stage"
+      ]
+    },
+    "fertilizer": [
+      "Avoid late-season top dressing of nitrogen fertilizer after heading",
+      "Balance potassium application (60 kg K2O/ha) to reinforce leaf structural integrity",
+      "Ensure adequate phosphorus availability during initial root establishment"
+    ],
+    "irrigation": [
+      "Avoid excessive ponding of water in late reproductive phases; implement alternate shallow wetting",
+      "Ensure proper drainage channels to prevent stagnant, humid micro-climates"
+    ],
+    "prevention": [
+      "Select varieties adapted with tolerance to late-season fungal foliar pathogens",
+      "Follow optimal seedling spacing (minimum 20 cm x 15 cm) to promote air circulation",
+      "Rogue out and destroy early infected leaves in seed multiplication plots"
+    ],
+    "recovery_tips": [
+      "Deeply plow stubble post-harvest to bury fungal teliospores beneath the microbial decomposition zone",
+      "Maintain clean bunds and eliminate wild rice volunteers"
+    ]
+  }
+}

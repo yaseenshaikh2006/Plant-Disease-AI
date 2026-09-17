@@ -1,0 +1,109 @@
+{
+  "strawberry_healthy": {
+    "crop": "Strawberry",
+    "disease": "Healthy",
+    "pathogen": "None (Plant in optimal physiological condition)",
+    "description": "Foliage exhibits vibrant green coloration, uniform leaf turgor, intact margins, and no visible lesions, chlorosis, or necrotic spotting.",
+    "symptoms": [
+      "Deep uniform green trifoliate leaves with serrated margins",
+      "Vigorous crown growth with upright petioles",
+      "Absence of fungal spots, powdery mildew, or marginal necrosis"
+    ],
+    "causes": [
+      "Optimal soil pH (5.5 - 6.5)",
+      "Balanced macro and micronutrient uptake",
+      "Adequate soil drainage and clean weed-free bed management"
+    ],
+    "severity_rules": {
+      "metric": "Lesion area percentage",
+      "healthy": "< 1% lesion coverage",
+      "mild": "N/A",
+      "moderate": "N/A",
+      "severe": "N/A"
+    },
+    "treatment": {
+      "organic": [
+        "Continue maintenance sprays of diluted neem oil (0.5%) as a prophylactic repellent",
+        "Apply beneficial compost tea to sustain healthy phyllosphere microflora"
+      ],
+      "chemical": [
+        "No chemical fungicides or bactericides required for healthy foliage"
+      ]
+    },
+    "fertilizer": [
+      "Maintain balanced N-P-K (such as 10-10-10 or 12-12-12) during vegetative establishment",
+      "Shift to higher potassium and calcium (e.g., 5-10-15 with chelated calcium) during flower bud initiation and fruit sizing",
+      "Avoid excess nitrogen which results in soft foliage vulnerable to fungal spore penetration"
+    ],
+    "irrigation": [
+      "Deliver 1.0 - 1.5 inches of water per week using drip tape placed beneath plastic mulch",
+      "Strictly avoid overhead sprinkler irrigation to keep the canopy dry",
+      "Water early in the morning to allow any surface moisture to evaporate before midday"
+    ],
+    "prevention": [
+      "Utilize certified disease-free bare-root or plug transplants from reputable nurseries",
+      "Maintain raised beds covered with straw or UV-stabilized plastic mulch to elevate foliage from wet soil",
+      "Ensure minimum 12-inch spacing between plants in staggered rows for laminar air circulation"
+    ],
+    "recovery_tips": [
+      "Remove senescent or damaged runner leaves during routine weekly scouting",
+      "Maintain clean field borders to prevent weed-harbored insect vectors"
+    ]
+  },
+  "strawberry_leaf_scorch": {
+    "crop": "Strawberry",
+    "disease": "Leaf Scorch",
+    "pathogen": "Diplocarpon earlianum (Ascomycete fungus)",
+    "description": "Leaf scorch produces numerous small, irregular purple or dark reddish-brown blotches on the upper surface of leaves. As lesions coalesce, the entire leaf turns brown, curls upward at the margins, and takes on a scorched appearance.",
+    "symptoms": [
+      "Small, angular, purplish to dark-brown spots without white centers on upper leaf surfaces",
+      "Spots coalesce causing extensive blotching, leaf curling, and burnt brown margins",
+      "Lesions can also appear on petiole stems, calyxes, and fruit caps, turning them brown and brittle"
+    ],
+    "causes": [
+      "Prolonged leaf wetness (6 to 9 hours of continuous moisture at 15-25°C)",
+      "Overhead sprinkler irrigation that splashes fungal conidia across adjacent crowns",
+      "Dense canopy with poor air movement and high relative humidity"
+    ],
+    "severity_rules": {
+      "metric": "Lesion area percentage",
+      "healthy": "< 1% lesion coverage",
+      "mild": "< 10% coverage; isolated purple flecks restricted to older lower leaves",
+      "moderate": "10% - 30% coverage; coalesced necrotic patches with partial leaf curling",
+      "severe": "> 30% coverage; widespread canopy scorch, dry necrotic margins, and calyx infection"
+    },
+    "treatment": {
+      "organic": [
+        "Spray copper hydroxide or copper octanoate (bordeaux mixture) at early symptom emergence",
+        "Apply bio-fungicides containing Bacillus amyloliquefaciens or Trichoderma harzianum at 7-day intervals",
+        "Prune and safely bag heavily scorched leaves to reduce primary inoculum load"
+      ],
+      "chemical": [
+        "Apply protectant fungicides such as Captan 50WP (2.5 lb/acre) or Thiram",
+        "For active outbreaks, apply systemic FRAC group 3 or group 11 fungicides (e.g., Pyraclostrobin, Azoxystrobin, or Difenoconazole)",
+        "Rotate fungicide FRAC chemical groups every 14 days to mitigate pathogen resistance development"
+      ]
+    },
+    "fertilizer": [
+      "Halt high-nitrogen fertilizer applications immediately; lush vegetative growth accelerates fungal mycelial spread",
+      "Foliar feed with soluble potassium silicate (reinforces leaf cuticle thickness against fungal appressorial penetration)",
+      "Provide light calcium nitrate feeding once new leaf emergence resumes"
+    ],
+    "irrigation": [
+      "Terminate all overhead irrigation immediately; convert exclusively to subsurface drip lines",
+      "Irrigate strictly between 6:00 AM and 9:00 AM so solar radiation quickly dries any residual humidity",
+      "Ensure soil moisture tension is maintained around -20 to -30 kPa to prevent root waterlogging"
+    ],
+    "prevention": [
+      "Plant scorch-resistant cultivars (e.g., Allstar, Honeoye, or Jewel where available)",
+      "Renovate strawberry beds post-harvest by mowing foliage above crowns and raking away all crop residue",
+      "Maintain a 3-foot bed width with clean inter-row aisles to promote rapid wind drying",
+      "Sanitize pruning shears in 10% household bleach or 70% ethanol between plant rows"
+    ],
+    "recovery_tips": [
+      "Burn or deeply bury (minimum 12 inches) all pruned infected foliage; do not leave clippings in walkways",
+      "Mow and renovate crowns after final harvest, applying a post-harvest protective copper barrier",
+      "Monitor newly emerging runner leaves weekly for micro-purple flecks"
+    ]
+  }
+}

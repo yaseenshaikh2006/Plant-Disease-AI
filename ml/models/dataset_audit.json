@@ -1,0 +1,87 @@
+{
+  "total_scanned": 325,
+  "total_valid": 325,
+  "total_corrupt": 0,
+  "duplicate_count": 0,
+  "class_count": 13,
+  "classes": {
+    "rice_bacterial_leaf_blight": {
+      "crop": "rice",
+      "disease": "bacterial_leaf_blight",
+      "valid_images": 25,
+      "corrupt_count": 0
+    },
+    "rice_brown_spot": {
+      "crop": "rice",
+      "disease": "brown_spot",
+      "valid_images": 25,
+      "corrupt_count": 0
+    },
+    "rice_healthy": {
+      "crop": "rice",
+      "disease": "healthy",
+      "valid_images": 25,
+      "corrupt_count": 0
+    },
+    "rice_leaf_smut": {
+      "crop": "rice",
+      "disease": "leaf_smut",
+      "valid_images": 25,
+      "corrupt_count": 0
+    },
+    "strawberry_healthy": {
+      "crop": "strawberry",
+      "disease": "healthy",
+      "valid_images": 25,
+      "corrupt_count": 0
+    },
+    "strawberry_leaf_scorch": {
+      "crop": "strawberry",
+      "disease": "leaf_scorch",
+      "valid_images": 25,
+      "corrupt_count": 0
+    },
+    "tomato_bacterial_spot": {
+      "crop": "tomato",
+      "disease": "bacterial_spot",
+      "valid_images": 25,
+      "corrupt_count": 0
+    },
+    "tomato_early_blight": {
+      "crop": "tomato",
+      "disease": "early_blight",
+      "valid_images": 25,
+      "corrupt_count": 0
+    },
+    "tomato_healthy": {
+      "crop": "tomato",
+      "disease": "healthy",
+      "valid_images": 25,
+      "corrupt_count": 0
+    },
+    "tomato_late_blight": {
+      "crop": "tomato",
+      "disease": "late_blight",
+      "valid_images": 25,
+      "corrupt_count": 0
+    },
+    "tomato_mosaic_virus": {
+      "crop": "tomato",
+      "disease": "mosaic_virus",
+      "valid_images": 25,
+      "corrupt_count": 0
+    },
+    "tomato_septoria_leaf_spot": {
+      "crop": "tomato",
+      "disease": "septoria_leaf_spot",
+      "valid_images": 25,
+      "corrupt_count": 0
+    },
+    "tomato_yellow_leaf_curl": {
+      "crop": "tomato",
+      "disease": "yellow_leaf_curl",
+      "valid_images": 25,
+      "corrupt_count": 0
+    }
+  }
+}

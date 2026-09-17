@@ -1,0 +1,41 @@
+# Training and Model Configuration
+# Plant Disease AI – Academic Transfer Learning Pipeline
+
+model:
+  backbone: "MobileNetV3Large"  # Options: MobileNetV3Large, EfficientNetB0
+  weights: "imagenet"
+  input_shape: [224, 224, 3]
+  dropout_rate: 0.35
+  dense_units: 256
+  l2_reg: 0.0001
+  num_classes: 13
+
+training:
+  batch_size: 16
+  epochs_warmup: 8
+  epochs_finetune: 15
+  initial_lr: 0.001
+  finetune_lr: 0.00005
+  unfreeze_layers: 40
+  early_stopping_patience: 6
+  reduce_lr_patience: 3
+  reduce_lr_factor: 0.2
+  min_lr: 0.000001
+
+augmentation:
+  rotation_range: 20
+  width_shift_range: 0.15
+  height_shift_range: 0.15
+  shear_range: 0.10
+  zoom_range: 0.15
+  horizontal_flip: true
+  vertical_flip: true
+  fill_mode: "nearest"
+
+paths:
+  raw_dir: "data/raw"
+  split_dir: "data/split"
+  model_output: "ml/models/best_model.keras"
+  class_indices: "ml/models/class_indices.json"
+  eval_results: "ml/models/evaluation_results.json"
+  eval_plots_dir: "ml/models"

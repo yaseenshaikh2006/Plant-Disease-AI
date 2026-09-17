@@ -1,0 +1,15 @@
+{
+  "Bacterialblight": 0,
+  "Blast": 1,
+  "Brownspot": 2,
+  "Strawberry___Leaf_scorch": 3,
+  "Strawberry___healthy": 4,
+  "Tomato___Bacterial_spot": 5,
+  "Tomato___Early_blight": 6,
+  "Tomato___Late_blight": 7,
+  "Tomato___Septoria_leaf_spot": 8,
+  "Tomato___Tomato_Yellow_Leaf_Curl_Virus": 9,
+  "Tomato___Tomato_mosaic_virus": 10,
+  "Tomato___healthy": 11,
+  "Tungro": 12
+}

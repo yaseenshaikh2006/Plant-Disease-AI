@@ -1,99 +1,156 @@
 {
-  "model_architecture": "PlantDisease_MobileNetV3Large",
-  "total_test_samples": 65,
-  "overall_accuracy": 0.1538,
-  "macro_precision": 0.0363,
-  "macro_recall": 0.1538,
-  "macro_f1": 0.0587,
-  "weighted_precision": 0.0363,
-  "weighted_recall": 0.1538,
-  "weighted_f1": 0.0587,
-  "class_metrics": {
-    "rice_bacterial_leaf_blight": {
-      "precision": 0.0,
-      "recall": 0.0,
-      "f1_score": 0.0,
-      "support": 5
+  "model": "best_model.keras",
+  "test_samples": 3071,
+  "num_classes": 13,
+  "class_names": [
+    "Bacterialblight",
+    "Blast",
+    "Brownspot",
+    "Strawberry___Leaf_scorch",
+    "Strawberry___healthy",
+    "Tomato___Bacterial_spot",
+    "Tomato___Early_blight",
+    "Tomato___Late_blight",
+    "Tomato___Septoria_leaf_spot",
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+    "Tomato___Tomato_mosaic_virus",
+    "Tomato___healthy",
+    "Tungro"
+  ],
+  "accuracy": 0.9869749267339629,
+  "accuracy_percent": 98.7,
+  "macro_precision": 0.9872209611407571,
+  "macro_recall": 0.9860441370829867,
+  "macro_f1_score": 0.9864601113835807,
+  "classification_report": {
+    "Bacterialblight": {
+      "precision": 0.9949748743718593,
+      "recall": 0.9949748743718593,
+      "f1-score": 0.9949748743718593,
+      "support": 199.0
     },
-    "rice_brown_spot": {
-      "precision": 0.0,
-      "recall": 0.0,
-      "f1_score": 0.0,
-      "support": 5
-    },
-    "rice_healthy": {
-      "precision": 0.0,
-      "recall": 0.0,
-      "f1_score": 0.0,
-      "support": 5
-    },
-    "rice_leaf_smut": {
-      "precision": 0.2381,
+    "Blast": {
+      "precision": 0.9863013698630136,
       "recall": 1.0,
-      "f1_score": 0.3846,
-      "support": 5
+      "f1-score": 0.993103448275862,
+      "support": 144.0
     },
-    "strawberry_healthy": {
-      "precision": 0.0,
-      "recall": 0.0,
-      "f1_score": 0.0,
-      "support": 5
+    "Brownspot": {
+      "precision": 1.0,
+      "recall": 0.9944444444444445,
+      "f1-score": 0.9972144846796658,
+      "support": 180.0
     },
-    "strawberry_leaf_scorch": {
-      "precision": 0.0,
-      "recall": 0.0,
-      "f1_score": 0.0,
-      "support": 5
+    "Strawberry___Leaf_scorch": {
+      "precision": 0.9940119760479041,
+      "recall": 1.0,
+      "f1-score": 0.996996996996997,
+      "support": 166.0
     },
-    "tomato_bacterial_spot": {
-      "precision": 0.0,
-      "recall": 0.0,
-      "f1_score": 0.0,
-      "support": 5
+    "Strawberry___healthy": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 69.0
     },
-    "tomato_early_blight": {
-      "precision": 0.0,
-      "recall": 0.0,
-      "f1_score": 0.0,
-      "support": 5
+    "Tomato___Bacterial_spot": {
+      "precision": 0.9905362776025236,
+      "recall": 0.9843260188087775,
+      "f1-score": 0.9874213836477987,
+      "support": 319.0
     },
-    "tomato_healthy": {
-      "precision": 0.0,
-      "recall": 0.0,
-      "f1_score": 0.0,
-      "support": 5
+    "Tomato___Early_blight": {
+      "precision": 0.9714285714285714,
+      "recall": 0.9066666666666666,
+      "f1-score": 0.9379310344827586,
+      "support": 150.0
     },
-    "tomato_late_blight": {
-      "precision": 0.0,
-      "recall": 0.0,
-      "f1_score": 0.0,
-      "support": 5
+    "Tomato___Late_blight": {
+      "precision": 0.9721254355400697,
+      "recall": 0.9789473684210527,
+      "f1-score": 0.9755244755244755,
+      "support": 285.0
     },
-    "tomato_mosaic_virus": {
-      "precision": 0.0833,
-      "recall": 0.4,
-      "f1_score": 0.1379,
-      "support": 5
+    "Tomato___Septoria_leaf_spot": {
+      "precision": 0.9328621908127208,
+      "recall": 0.9924812030075187,
+      "f1-score": 0.9617486338797814,
+      "support": 266.0
     },
-    "tomato_septoria_leaf_spot": {
-      "precision": 0.15,
-      "recall": 0.6,
-      "f1_score": 0.24,
-      "support": 5
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+      "precision": 1.0,
+      "recall": 0.9887920298879203,
+      "f1-score": 0.9943644333124608,
+      "support": 803.0
     },
-    "tomato_yellow_leaf_curl": {
-      "precision": 0.0,
-      "recall": 0.0,
-      "f1_score": 0.0,
-      "support": 5
+    "Tomato___Tomato_mosaic_virus": {
+      "precision": 1.0,
+      "recall": 0.9821428571428571,
+      "f1-score": 0.990990990990991,
+      "support": 56.0
+    },
+    "Tomato___healthy": {
+      "precision": 0.9916317991631799,
+      "recall": 0.9957983193277311,
+      "f1-score": 0.9937106918238994,
+      "support": 238.0
+    },
+    "Tungro": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 196.0
+    },
+    "accuracy": 0.9869749267339629,
+    "macro avg": {
+      "precision": 0.9872209611407571,
+      "recall": 0.9860441370829867,
+      "f1-score": 0.9864601113835807,
+      "support": 3071.0
+    },
+    "weighted avg": {
+      "precision": 0.9872791285052611,
+      "recall": 0.9869749267339629,
+      "f1-score": 0.9869771976840164,
+      "support": 3071.0
     }
   },
   "confusion_matrix": [
     [
+      198,
+      1,
       0,
       0,
       0,
-      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      144,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      179,
+      0,
       0,
       0,
       0,
@@ -108,37 +165,7 @@
       0,
       0,
       0,
-      5,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      5,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      5,
+      166,
       0,
       0,
       0,
@@ -154,43 +181,13 @@
       0,
       0,
       0,
+      69,
       0,
       0,
       0,
       0,
       0,
       0,
-      2,
-      3,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      2,
-      3,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      5,
       0,
       0
     ],
@@ -200,27 +197,72 @@
       0,
       0,
       0,
+      314,
       0,
-      0,
-      0,
-      0,
-      0,
-      2,
-      3,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
+      1,
       4,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      136,
+      4,
+      10,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      279,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      264,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      1,
+      3,
+      1,
+      794,
+      0,
       1,
       0
     ],
@@ -233,46 +275,13 @@
       0,
       0,
       0,
+      1,
       0,
+      55,
       0,
-      2,
-      3,
       0
     ],
     [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      2,
-      3,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      2,
-      3,
-      0
-    ],
-    [
-      0,
-      0,
-      0,
       1,
       0,
       0,
@@ -280,24 +289,27 @@
       0,
       0,
       0,
-      3,
-      1,
+      0,
+      0,
+      0,
+      0,
+      237,
       0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      196
     ]
-  ],
-  "class_names": [
-    "rice_bacterial_leaf_blight",
-    "rice_brown_spot",
-    "rice_healthy",
-    "rice_leaf_smut",
-    "strawberry_healthy",
-    "strawberry_leaf_scorch",
-    "tomato_bacterial_spot",
-    "tomato_early_blight",
-    "tomato_healthy",
-    "tomato_late_blight",
-    "tomato_mosaic_virus",
-    "tomato_septoria_leaf_spot",
-    "tomato_yellow_leaf_curl"
   ]
 }
